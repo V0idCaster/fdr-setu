@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --color-ink: #17171a;
+  --color-ink-2: #2b2a27;
+  --color-ink-3: #3d3b36;
+  --color-muted: #5f5b53;
+  --color-paper: #f7f7f5;
+  --color-paper-2: #efefeb;
+  --color-surface: #ffffff;
+  --color-line: #e3ddd1;
+  --color-line-strong: #cfc7b7;
+
+  --color-gold: #c9a45c;
+  --color-gold-soft: #f3ead6;
+  --color-gold-600: #a7843f;
+  --color-gold-700: #7f6227;
+  --color-brand: #7a5a1e;
+  --color-brand-hover: #5f4614;
+
+  --color-amber-bg: #fcf1dc;
+  --color-amber-fg: #8a4a06;
+  --color-amber-dot: #d98a12;
+  --color-red-bg: #fbe9e8;
+  --color-red-fg: #9c1c1c;
+  --color-red-dot: #d23b3b;
+  --color-green-bg: #e5f2ea;
+  --color-green-fg: #1c6a3d;
+  --color-green-dot: #2f9a5c;
+  --color-slate-bg: #edf0f4;
+  --color-slate-fg: #3d4757;
+  --color-slate-dot: #7a869a;
+}
+
+@layer base {
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    min-height: 100vh;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-gold-600);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: var(--color-gold-soft);
+  }
+}
+
+@utility tnum {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+@utility hatch {
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgb(23 23 26 / 0.04) 0 1px,
+    transparent 1px 7px
+  );
+}

@@ -1,0 +1,32 @@
+node_modules/
+dist/
+build/
+.cache/
+.env*
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.tmp-*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vercel
+.vercel
+
+# Local env variants (keep .env.example if you make one)
+.env.local
+.env.*.local
+
+# Test and coverage output
+coverage/
+
+# Package manager debug logs
+npm-debug.log*
+pnpm-debug.log*
