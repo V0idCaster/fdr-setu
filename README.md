@@ -8,7 +8,7 @@ A prototype portal that tracks every security deposit and Fixed Deposit Receipt 
 
 **Built for Smart India Hackathon (SIH) 2026 · Problem Statement SIH26265**
 
-[**🌐 Live Demo**](https://YOUR-LIVE-LINK.vercel.app) · [**🐛 Report a Bug**](https://github.com/V0idCaster/fdr-setu/issues) · [**💡 Request a Feature**](https://github.com/V0idCaster/fdr-setu/issues)
+[**🌐 Live Demo**](https://fdr-setu-nu.vercel.app) · [**🐛 Report a Bug**](https://github.com/V0idCaster/fdr-setu/issues) · [**💡 Request a Feature**](https://github.com/V0idCaster/fdr-setu/issues)
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
